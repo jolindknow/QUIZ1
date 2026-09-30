@@ -1,0 +1,22 @@
+/* Custom Styles for Maroon & Beige Theme */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.35s ease-out forwards;
+}
+
+.nav-link.active {
+    color: #800020;
+    font-weight: 700;
+    border-bottom: 2px solid #800020;
+    padding-bottom: 2px;
+}
